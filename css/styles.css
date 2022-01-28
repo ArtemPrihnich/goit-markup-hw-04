@@ -104,6 +104,15 @@ body {
   text-decoration: none;
 }
 
+.icon-envelope {
+  fill: #757575;
+}
+
+/* .icon-smartphone {
+  width: 10px;
+  height: 16px;
+} */
+
 .contacts-list {
   display: flex;
   margin-left: auto;
@@ -116,6 +125,7 @@ body {
 .contacts-list .link:hover,
 .link:focus {
   color: var(--accent-color);
+  fill: var(--accent-color);
 }
 
 /* Герой */
@@ -219,6 +229,16 @@ body {
   line-height: 1.7;
 }
 
+.icons-container {
+  display: block;
+  margin-bottom: 30px;
+  background-color: #f5f4fa;
+}
+
+.icon-img {
+  margin: 25px 100px;
+}
+
 /* Заголовок секций "Чем мы занимаемся" и "Наша команда"*/
 .about-section {
   padding-top: 94px;
@@ -299,6 +319,43 @@ body {
   line-height: 1.2;
   text-align: center;
 }
+
+.test {
+  display: flex;
+  margin: 16px 32px 0 32px;
+  padding: 0;
+  align-items: center;
+}
+
+.test2 {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  margin-right: 10px;
+  min-height: 44px;
+  min-width: 44px;
+  border-radius: 50%;
+}
+
+.test2:last-child {
+  margin-right: 0;
+}
+
+.social-link {
+  display: block;
+  min-height: 44px;
+  min-width: 44px;
+  border-radius: 50%;
+  fill: #afb1b8;
+}
+
+.social-link:hover {
+  border-radius: 50%;
+  background-color: var(--accent-color);
+  fill: var(--titel-text-color);
+}
+
+/* Постоянные клиенты */
 
 /* Футер */
 .footer-section {
